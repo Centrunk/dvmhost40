@@ -1,12 +1,13 @@
 [Unit]
 Description=Centrunk P25 TRS Service (CONV)
-After=syslog.target zerotier-one.service network.target
+After=syslog.target network.target
 
 [Service]
 User=root
 Type=forking
-ExecStart=/opt/centrunk/dvmhost/dvmhost -c /opt/centrunk/configs/configCONV1.yml
+ExecStart=/opt/centrunk/dvmhost/dvmhost -c /opt/centrunk/configs/configCONV.yml
 Restart=on-abnormal
+TimeoutSec=infinity
 
 [Install]
 WantedBy=multi-user.target
