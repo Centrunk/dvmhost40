@@ -11,7 +11,7 @@ log:
 network:
     enable: true
     id: xxx
-    address: 10.147.147.245
+    address: 100.76.121.128
     port: 63030
     password: "xxx"
 
