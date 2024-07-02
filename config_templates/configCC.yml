@@ -117,7 +117,7 @@ system:
             - channelId: xxx
               channelNo: xxx
               restAddress: xxx
-              restPort: 9990
+              restPort: 9991
               restPassword: "xxx"
               restSsl: false
 
