@@ -140,6 +140,7 @@ system:
     modem:
         protocol:
             type: "uart"
+            mode: "air"
 
             uart:
                 port: /dev/ttyAMA0
@@ -176,6 +177,12 @@ system:
             txFine: 127
             rssiCoarse: 127
             rssiFine: 127
+
+        dfsi:
+            rtrt: true
+            diu: true
+            jitter: 200
+            callTimeout: 200
 
         rxDCOffset: 0
         txDCOffset: 0
