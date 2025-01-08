@@ -183,6 +183,8 @@ system:
         dfsi:
             rtrt: true
             diu: false
+            fsc: false
+            initiator: false
             jitter: 200
             callTimeout: 200
 
