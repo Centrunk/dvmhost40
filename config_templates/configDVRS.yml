@@ -127,7 +127,7 @@ system:
         nac: xxx
 
         pSuperGroup: 2321
-        announcementGroup: 50
+        announcementGroup: 150
 
         netId: DEE00
         sysId: 13B
